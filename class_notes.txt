@@ -1,23 +1,17 @@
 BootStrap
 =========
-    - BootStrap is the "framework".
+    - BootStrap is the CSS Framework.
+    - BootStrap given by "Twitter".
+    - BootStrap containes "readymade" CSS.
+    - BootStrap we will include by using "CDN" (Content Data Network).
 
-    - BootStrap is the "CSS" Framework.
+    - BootStrap containes following versions.
 
-    - BootStrap containes "predefined" css class.
+                1) bootstrap 3.x
 
-    - BootStrap released by "Twitter".
+                2) bootstrap 4.x
 
-    - we will "use" BootStrap by using "CDN".
+                3) bootstrap 5.x
 
-    - BootStrap containes 3.x , 4.x and 5.x
-
-
-    following CDN'S Representing BootStrap 4.x
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
+    - we will use BootStrap classes by using "class" attribute.
+    
