@@ -1,0 +1,129 @@
+<!--
+    1) input-group
+
+    2) input-group-prepend
+
+    3) input-group-append
+
+    4) input-group-text
+
+    5) form-control
+
+    6) flex-nowrap  (verify)
+
+    7) input-group-sm
+
+    8) input-group-lg
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body class="container mt-5">
+         
+            
+        <div class="input-group mb-5">
+            <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary">Courses</button>
+                <button class="dropdown-toggle-split dropdown-toggle" data-toggle="dropdown"></button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item">Hello_1</a>
+                    <a class="dropdown-item">Hello_2</a>
+                    <a class="dropdown-item">Hello_3</a>
+                    <a class="dropdown-item">Hello_4</a>
+                    <a class="dropdown-item">Hello_5</a>
+                </div>
+            </div>
+            <input type="text" class="form-control">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary">Courses</button>
+                <button class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item">Hello_1</a>
+                    <a class="dropdown-item">Hello_2</a>
+                    <a class="dropdown-item">Hello_3</a>
+                    <a class="dropdown-item">Hello_4</a>
+                    <a class="dropdown-item">Hello_5</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <!--    
+            <div class="input-group input-group-lg mb-5">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">$</span>
+                    <span class="input-group-text">#</span>
+                    <button class="btn btn-outline-secondary">Button1</button>
+                    <button class="btn btn-outline-primary">Button2</button>
+                </div>
+                <input type="text" class="form-control">
+                <input type="text" class="form-control">
+                <div class="input-group-append">
+                    <span class="input-group-text">$</span>
+                    <span class="input-group-text">#</span>
+                    <button class="btn btn-outline-secondary">Button1</button>
+                    <button class="btn btn-outline-primary">Button2</button>
+                </div>
+            </div>
+            -->
+
+
+
+        
+        
+        
+        
+        
+            <div class="input-group input-group-lg mb-5">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <input type="checkbox">
+                    </span>
+                </div>
+                <input type="text" class="form-control">
+                <div class="input-group-append">
+                    <span class="input-group-text">
+                        <input type="radio">
+                    </span>
+                </div>
+            </div>
+            
+
+
+
+
+            <div class="input-group input-group-sm mb-5">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">$</span>
+                </div>
+                <input type="text" class="form-control">
+                <div class="input-group-append">
+                    <span class="input-group-text">@</span>
+                </div>
+            </div>
+
+            <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Address</span>
+                </div>
+                <textarea class="form-control"></textarea>
+            </div>
+            
+    
+    </body>
+</html>
